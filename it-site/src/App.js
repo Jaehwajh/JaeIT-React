@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,6 +21,29 @@ function App() {
       </header>
     </div>
   );
+}
+
+function Navbar() {
+  return (
+    <div className='Nav'>
+        <nav className='Nav-bar'>
+          <ul>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+            <li>
+              <a></a>
+            </li>
+          </ul>
+        </nav>
+    </div>
+  )
 }
 
 export default App;
