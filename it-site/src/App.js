@@ -27,23 +27,24 @@ function Navbar() {
   return (
     <div className='Nav'>
         <nav className='Nav-bar'>
-          <ul>
+          <ul className='List'>
             <li>
-              <a></a>
+              <a href='#'>About</a>
             </li>
             <li>
-              <a></a>
+              <a href='#'>Service</a>
             </li>
             <li>
-              <a></a>
+              <a href='#'>Contact</a>
             </li>
             <li>
-              <a></a>
+              <a href='#'>Socials</a>
             </li>
           </ul>
         </nav>
     </div>
   )
 }
+
 
 export default App;
