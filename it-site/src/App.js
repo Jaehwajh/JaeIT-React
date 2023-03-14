@@ -9,6 +9,7 @@ function App() {
       <div className="Hero-section">
 
       </div>
+      <Footer />
     </div>
   );
 }
